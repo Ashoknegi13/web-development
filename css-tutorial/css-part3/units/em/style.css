@@ -1,0 +1,23 @@
+#outer{
+    height: 400px;
+    width: 400px;
+     background-color: pink;
+     border: 1px solid black;
+     font-size: 10px;
+}
+#inner{
+    height: 100px;
+    width: 100px;
+     background-color: blue;
+     border: 1px solid black;
+     font-size: 3em;
+     padding:1em;
+     color: white;
+}
+
+section{
+    font-size: 15px;
+}
+div{
+    font-size: 2rem;
+}
