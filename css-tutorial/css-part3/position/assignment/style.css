@@ -1,0 +1,48 @@
+div{
+    margin: 10px;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    box-shadow: 5px 6px 14px black;
+     transition: width 1s ease-in 0.5s;
+}
+.box1:hover{
+    width: 500px;
+    background-color: orange;
+    box-shadow: 8px 12px 20px black;
+}
+
+.box2{
+    width:  100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+    box-shadow: 4px 6px 12px black;
+    transform: translate(200px, 200px) rotate(90deg);
+
+}
+
+.box3{
+    width:  100px;
+    height: 100px;
+    background-color: pink;
+    transform: skewX(20deg);
+}
+
+.box4{
+    width:  100px;
+    height: 100px;
+    background-color: blue;
+    box-shadow: 2px 2px 5px green;
+}
+
+.myimage{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    background-image: url(../../background-image/image/1.jpg);    
+    background-size: cover;
+    opacity: 50%;
+}

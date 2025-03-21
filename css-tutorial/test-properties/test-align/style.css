@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    text-decoration: #ff0000 underline;
+    font-size: 50px;
+    font-family: arial;
+}
+h3{
+    text-align: right;
+    text-decoration: #00f line-through;
+   
+}
+h2{
+  text-decoration: #0f0 overline;  
+  font-family:Courier New;
+}
+p{
+    line-height: 2;
+    text-decoration: #f0f line-through;
+}

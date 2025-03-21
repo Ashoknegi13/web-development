@@ -1,0 +1,33 @@
+ #container{
+    margin: 20px 20px 20px 200px;
+    /* border: 2px solid black; */
+    padding: 20px;
+ }
+ #container >div{
+    margin : 4px 70px 80px  0px;
+ }
+ .cart{
+    width: 200px;
+    height: 250px; 
+    border: 2px solid black;
+    display: inline-block;
+   
+    border-radius: 5px;
+    box-shadow: 3px 5px 15px black;
+}
+.desc{
+    padding: 0 2px 0 5px;
+}
+img{
+    width: 100%;
+    height: 150px;
+    background-color: orange;
+    border-radius: 5px 5px 0 0;
+}
+
+.cart:hover{
+    box-shadow: 6px 10px 30px red;
+    transition: ease-in-out;
+    transition:  1s ;
+    
+}
