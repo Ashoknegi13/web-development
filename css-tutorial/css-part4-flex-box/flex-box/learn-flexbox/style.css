@@ -1,20 +1,24 @@
 #container{
-    height: 300px;
+    height: 600px;
     width: 80%;
     border: 2px solid black;
     margin: 10px auto;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap-reverse;  
-}
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-content: flex-start;
+    justify-content: flex-start; */
+    /* align-items: flex-end; */
+    /* align-content: flex-start; */
+  align-content: baseline;
+  }
 h1{
     text-align: center;
 }
-#container div{
+#container div{ 
   width:400px;
-  height: 100px;
+  height: 200px;
   text-align: center;
   font-size:  1.5em; 
-  color: white; gi 
+  color: white; 
 }
