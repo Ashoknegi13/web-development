@@ -5,12 +5,17 @@
     border: 2px solid black;
     text-align: center;   
     display: grid;
-    grid-template-rows: 50px 50px 50px;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 10px;
+    column-gap: 12px;
+    /* grid-gap: 15px;   this is shorthand of row-gap and column gap*/ 
+    /* grid-template-rows: 50px 50px 50px; */
+    /* grid-template-columns: 100px 100px 100px; */
 }
 
 .items{
-        /* width: 50px;
+        /* width: 100px;
         height: 50px;  */
         border: 2px solid black;
         background-color: red;
