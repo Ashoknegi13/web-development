@@ -9,6 +9,8 @@
    padding: 10px;
    margin: 10px;
    background-color: whitesmoke;
+   box-shadow: 3px 5px 8px black;
+   transition:  1s;
 
  }
 
@@ -27,14 +29,15 @@
 
 .card:hover{
    box-shadow: 6px 10px 30px black;
-   transition:  1s;
    transition: ease-in-out;
-}
+   transition: 1s;
 
-@media (max-width: 375px){
+ 
+  }
+
+@media (max-width: 376px){
    #pets{
       flex-wrap: wrap;
-       
    }
   
 }
